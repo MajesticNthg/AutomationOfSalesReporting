@@ -20,6 +20,7 @@ public class Level1 {
                     priceList.set(x, priceList.get(x) + priceList.get(y));
                     priceList.remove(y);
                     productList.remove(y);
+                    y--;
                 }
             }
         }
